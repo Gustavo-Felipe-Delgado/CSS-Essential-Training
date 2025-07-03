@@ -1,0 +1,18 @@
+
+/* Seletor global */
+
+* {
+    color: purple;  
+}
+
+/* Seletor de elemento */
+
+h1 {
+    color: orange; 
+}
+
+/* Seletor por Id de tag */
+
+#highlight {
+    background: yellow;
+}
