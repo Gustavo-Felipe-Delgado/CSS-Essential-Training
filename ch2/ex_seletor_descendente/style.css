@@ -1,0 +1,13 @@
+/*Links são azuis normalmente */
+
+a {
+    color: black;
+}
+
+section a{
+    color: green;
+}
+
+section p a{
+    color: pink;
+}

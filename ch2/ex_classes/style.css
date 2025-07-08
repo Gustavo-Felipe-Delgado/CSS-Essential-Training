@@ -1,0 +1,13 @@
+#highlight {
+    background-color: yellow;
+}
+
+.button {
+    background-color: red;
+    border: 2px outset black;
+    border-radius: 3px;
+}
+
+.button.large-text {
+    font-weight: bold;
+}
