@@ -1,0 +1,11 @@
+article p:first-child {
+    color: red;
+}
+
+article a:first-of-type {
+    color: orange;
+}
+
+article p:first-child::first-letter {
+    color: burlywood;
+}
