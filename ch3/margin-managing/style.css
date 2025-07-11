@@ -1,0 +1,19 @@
+p {
+    background: lightgreen;
+}
+
+span {
+    background: yellow;
+}
+
+.first-block {
+    margin-bottom: 0;
+}
+
+.second-block {
+    margin-top: 0;
+}
+
+.close-gap {
+    margin-left: -4px;
+}
