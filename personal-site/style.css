@@ -32,7 +32,8 @@ body {
 
 .content-wrapper{
     margin: 0 auto;
-    width: 1200px;
+    padding: 30px;
+    max-width: 1200px;
 }
 
 /* Links 
@@ -76,6 +77,15 @@ footer a:hover{
 
 /* RESUME 
 -------------------------*/
+
+.resume header::before{
+    background: url(./placeholder-images/bg-home-office-studio.jpg) ;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
 
 
 /* Profile
