@@ -1,0 +1,47 @@
+.wrapper {
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box{
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+}
+
+.parent {
+    /* A propriedade 'position' é utilizado para 
+    referenciar o box 'absolute' */
+    position: relative;
+    border: 1px solid red;
+}
+
+.relative {
+    background-color: lightblue;
+    position: relative;
+    left: 200px;
+}
+
+.absolute {
+    background-color: pink;
+    position: absolute;
+    right: 20%;
+    top: 5%;
+}
+
+.fixed {
+    background-color: lightgreen;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.sticky{
+    background-color: lightslategrey;
+    position: sticky;
+    top: 10px;
+}
+

@@ -1,0 +1,48 @@
+html {
+    background-color: grey;
+}
+
+body{
+    background-color: white;
+    height: 400px;
+}
+
+.block1 {
+    background-color: pink;
+}
+
+.block2 {
+    background-color: palegoldenrod;
+    margin: -60px 0 0 20px;
+}
+
+.float {
+    background-color: lightblue;
+    float: left;
+    margin: -150px 40px 10px 10px;
+    margin: -150px 0 0 100px;
+}
+
+.inline {
+    background-color: blue;
+    color: white;
+}
+
+.position {
+    background-color: orange;
+    position: relative;
+    left: 180px;
+    top: -165px;
+    height: 110px;
+}
+
+
+
+
+div {
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    font-family: avenir, sans-serif;
+}
+
