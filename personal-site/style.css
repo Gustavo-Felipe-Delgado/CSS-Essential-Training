@@ -21,6 +21,7 @@ html {
     box-sizing: inherit;
 }
 
+/* Utilizado para que a imagem de fundo cubra a tela inteira*/
 html, body {
     height: 100%;
 }
@@ -71,10 +72,19 @@ footer a:hover{
 .home{
     background: url(./placeholder-images/bg-home-office-studio.jpg) no-repeat;
     background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .home .content-wrapper {
-    background: rgb(255 255 255 / 85%);
+    /*Container será do tamanho do conteúdo e expandirá para tomar o restante do espaço*/
+    flex: 1 0 auto;
+}
+
+.home .content-bg{
+        background: rgb(255 255 255 / 85%);
+        padding: 30px;
 }
 
 /* RESUME 
@@ -130,6 +140,11 @@ footer a:hover{
 footer {
     background:  #222;
     color:       #d3d4d6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
 }
 
 .socials {
@@ -139,9 +154,14 @@ footer {
 
 .socials li {
     display: inline-block;
+    margin-left: 6px;
 }
 
 .socials img {
     width: 32px;
+}
+
+.socials img:hover {
+    opacity: 0.5;
 }
 
