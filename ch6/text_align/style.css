@@ -1,0 +1,13 @@
+section{
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+p {
+    line-height: 1.5;
+}
